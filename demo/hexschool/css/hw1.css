@@ -1,0 +1,105 @@
+.content {
+    font-family: PingFangTC-light, sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+hr.header {
+    height: 2px;
+    margin-bottom: 46px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: rgba(0, 0, 0, 1);
+}
+
+h1 {
+    top: 48px;
+    font-family: Andale Mono, sans-serif;
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 45px;
+    padding: 0px;
+    margin: 0px;
+}
+
+h3 {
+    font-family: PingFangTC-Medium, sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+p {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.avatar {
+    margin-bottom: 46px;
+}
+
+.sub-title {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.discription {
+    margin-bottom: 80px;
+}
+
+.skills-content {
+    padding: 20px 102px;
+    color: white;
+    background-color: #415165;
+}
+
+.skills-content h2 {
+    text-align: center;
+}
+
+.skills-content .skills {
+    width: 200px;
+    margin: 0 auto;
+    padding-left: 60px;
+    font-family: Roboto-light, sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    list-style-type: none;
+    opacity: 1;
+}
+
+.skills-content hr,
+.footer hr {
+    background: rgba(255, 255, 255, 1);
+}
+
+.intro {
+    width: 650px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #415165;
+    text-align: center;
+    color: white;
+}
+
+.contact {
+    font-family: PingFangTC-Light, sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    opacity: 1;
+}
+
+.social-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 7px 0 7px;
+}
