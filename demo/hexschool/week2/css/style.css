@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', '微軟正黑體', 'sans-serif';
+    font-style: italic;
+}
+
+section {
+    padding: 64px;
+}
+
+.header h1, .about h1, .brand h1, .works h1, .contact h1 {
+    color: #fff;
+    font-size: 80px;
+    line-height: 94px;
+    margin-bottom: 20px;
+}
+
+.header p, .about p, .brand p, .works p, .contact p {
+    color: #fff;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    height: 960px;
+    background-image:url('https://hexschool.github.io/webLayoutTraining1st/week2/banner.png');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    padding: 32px 0px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about h1, .works h1, .about p, .works p {
+    color: #000;
+}
+
+.about img {
+    height: 384px;
+    width: 384px;
+}
+
+.about li {
+    list-style-type: disc;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.brand, .contact {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brand .t-shirt {
+    display: flex;
+    justify-content: space-around;
+}
+
+.works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.works .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.works div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    padding: 64px 0 80px 0;
+}
