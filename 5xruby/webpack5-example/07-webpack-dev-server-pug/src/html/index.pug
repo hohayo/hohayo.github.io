@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    title webpack
+  body
+    h1 milkmidi
+    .box box
+    img(src="../img/cat.png")
+
+    .from-webpack
+      h2=MY_DATA
+
+    if DEV_MODE
+      script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js")
+    else
+      script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+
+    if DEV_MODE
+      script.
+        console.log('development')

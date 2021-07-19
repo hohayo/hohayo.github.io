@@ -1,0 +1,18 @@
+h1 {
+  @include helloWorld('20px');
+  @if $DEV_MODE {
+    color: green;
+  }
+}
+
+h2 {
+  color: red;
+  // color: black;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  background-size: 100% auto;
+  background-image: url('../img/milkmidi.png');
+}
